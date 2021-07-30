@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 920px;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(237, 230, 253);
+    border-radius: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0 auto;
+    color: rgb(139, 108, 226);
+}
+.under {
+    display: flex;
+    margin-top: 10px;
+}
+.password-div {
+    display: flex;
+    justify-content: space-between;
+}
+input[type="email"], input[type="password"] {
+    height: 20px;
+    outline: none;
+    border-radius: 3px;
+    border: 0.1px black solid;
+    cursor: pointer;
+    padding: 5px 0px 5px 10px;
+    font-size: 15px;
+    transition: border-color 0.5s;
+    background-color: rgb(237, 230, 253);
+}
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: rgb(139, 108, 226);
+    border-radius: 3px;
+}
+a {
+    text-decoration: 0;
+    cursor: pointer;
+    color: rgb(139, 108, 226);
+}
+.div-email {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: space-between;
+}
+.main-password-div {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: space-between;
+}
+button {
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(139, 108, 226);
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.stay {
+    font-weight: 500;
+    padding-left: 2.5px ;
+}
+button:hover {
+    background-color: rgb(152, 138, 255);
+}
+label {
+    cursor: pointer;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+.use {
+    text-align: center;
+}
+.under p {
+    margin: 0 auto;
+}

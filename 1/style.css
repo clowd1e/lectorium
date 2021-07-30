@@ -1,0 +1,81 @@
+.div {
+    width: 50px;
+    height: 50px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+.horisontal {
+    top: 82px;
+    display: flex;
+    width: 210px;
+    height: 75px;
+    position: absolute;
+    justify-content: space-between;
+    
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 295px;
+}
+.point {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 5px;
+    height: 5px;
+    border: 2px black solid;
+    background-color: black;
+    border-radius: 5px;
+}
+.horisontal :first-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-self: flex-start;
+}
+.horisontal :last-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+}
+.vertical :first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    transform: rotate(90deg);
+}
+.vertical :last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical :nth-child(3n) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.vertical :nth-last-child(3n) {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.point3 {
+    align-self: center;
+    position: absolute;
+}
+.conteiner {
+    margin: 0 auto;
+    width: 170px;
+}
